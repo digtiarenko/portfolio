@@ -27,16 +27,16 @@
    --mb-3: 3rem;
    /* =========== Z-INDEX ========= */
    --z-tooltip: 10;
-   --z-fixed: 12;
-   --z-modal: 15;
+   --z-fixed: 100;
+   --z-modal: 200;
 
    /* =========COLORS HSL========== */
    --hue: 0;
    --saturation: 0%;
-   --title-color: hsl(var(--hue), var(saturation), 20%);
-   --title-color-dark: hsl(var(--hue), var(saturation), 0%);
-   --text-color: hsl(var(--hue), var(saturation), 45%);
-   --body-color: hsl(var(--hue), var(saturation), 95%);
+   --title-color: hsl(var(--hue), var(--saturation), 30%);
+   --title-color-dark: hsl(var(--hue), var(--saturation), 0%);
+   --text-color: hsl(var(--hue), var(--saturation), 45%);
+   --body-color: hsl(var(--hue), var(--saturation), 95%);
    --container-color: #fff;
 }
 
