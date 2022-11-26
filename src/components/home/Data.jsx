@@ -1,4 +1,3 @@
-import React from 'react';
 import { ReactComponent as HandSVG } from '../../assets/hand.svg';
 import { ReactComponent as SendSVG } from '../../assets/send.svg';
 
@@ -9,7 +8,7 @@ const Data = () => {
             Valentyn Digtiarenko <HandSVG />
          </h1>
          <h3 className="home__subtitle">Full Stack Developer</h3>
-         <p className="home_description">
+         <p className="home__description">
             Passionate and experienced media guy goes IT. Bringing forth 10
             years of communication, planning and coordination skills gained on
             editors and directors positions.
