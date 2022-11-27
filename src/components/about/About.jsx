@@ -23,7 +23,7 @@ const About = () => {
                <a
                   download="digtiarenko_CV"
                   href={CV}
-                  className="button button--flex"
+                  className="button about__button button--flex"
                >
                   Download CV
                   <i className="uil uil-file-download-alt"></i>
