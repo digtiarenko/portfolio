@@ -9,9 +9,9 @@ const Data = () => {
          </h1>
          <h3 className="home__subtitle">Full Stack Developer</h3>
          <p className="home__description">
-            Passionate and experienced media guy goes IT. Bringing forth 10
-            years of communication, planning and coordination skills gained on
-            editors and directors positions.
+            Hi! I'm a junior [React, Node.js] developer. I may be newbie in IT,
+            but certainly a seasoned player in bussiness. Throw me to the wolves
+            and I shall return, leading the pack.
          </p>
 
          <a href="#contact" className="button button--flex">

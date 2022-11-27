@@ -160,7 +160,8 @@
    }
    .home__img {
       order: initial;
-      justify-self: initial;
+      justify-self: center;
+      margin-left: -2rem;
    }
 
    .home__data {
@@ -182,6 +183,7 @@
    .home__img {
       width: 250px;
       height: 250px;
+      margin-left: initial;
    }
 }
 
