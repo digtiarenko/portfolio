@@ -1,4 +1,5 @@
 .about__container {
+   /* background-color: bisque; */
    grid-template-columns: repeat(2, 1fr);
    align-items: center;
    column-gap: 4rem;
@@ -11,6 +12,7 @@
 }
 
 .about__info {
+   /* background-color: aquamarine; */
    grid-template-columns: repeat(3, 140px);
    gap: 0.5rem;
    margin-bottom: var(--mb-2);
@@ -38,11 +40,12 @@
 }
 
 .about__subtitle {
-   font-size: var(--small-font-size);
+   font-size: var(--smaller-font-size);
    color: var(--title-color);
 }
 
 .about__description {
+   /* border: 1px black solid; */
    padding: 0 2rem 0;
    margin-bottom: var(--mb-2-5);
 }
@@ -89,12 +92,15 @@
    .about__info {
       gap: 0.5rem;
    }
+   .about__img {
+      width: 200px;
+   }
 
    .about__description {
       padding: 0;
    }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
    .about__info {
       grid-template-columns: repeat(2, 1fr);
    }
