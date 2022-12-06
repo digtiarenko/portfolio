@@ -44,16 +44,18 @@ const Contacts = () => {
             <div className="contacts__content">
                <h3 className="contacts__title">Send me an e-mail</h3>
                <form className="contacts__form">
-                  <label for="name" className="contacts__form-tag">
-                     Name
-                  </label>
-                  <input
-                     id="name"
-                     type="text"
-                     name="name"
-                     className="contacts__form-input"
-                     placeholder="Insert your name"
-                  />
+                  <div className="contacts__form-div">
+                     <label for="name" className="contacts__form-tag">
+                        Name
+                     </label>
+                     <input
+                        id="name"
+                        type="text"
+                        name="name"
+                        className="contacts__form-input"
+                        placeholder="Insert your name"
+                     />
+                  </div>
                   <div className="contacts__form-div">
                      <label for="email" className="contacts__form-tag">
                         Email
@@ -66,7 +68,7 @@ const Contacts = () => {
                         placeholder="Insert your email"
                      />
                   </div>
-                  <div className="contacts__form-div">
+                  <div className="contacts__form-div contacts__form-area">
                      <label for="project" className="contacts__form-tag">
                         Your proposal
                      </label>
@@ -74,14 +76,14 @@ const Contacts = () => {
                         id="project"
                         type="text"
                         name="project"
-                        cols="30"
-                        rows="10"
-                        className="contacts__form-input"
-                        placeholder="Tell about ypur idea"
+                        cols="20"
+                        rows="7"
+                        className="contacts__form-input "
+                        placeholder="Tell me about your idea"
                      />
                   </div>
-                  <button className="button button--flex">
-                     Sen Message <SendSVG />
+                  <button className="button button--flex contacts__button_xl">
+                     Send Message <SendSVG />
                   </button>
                </form>
             </div>
