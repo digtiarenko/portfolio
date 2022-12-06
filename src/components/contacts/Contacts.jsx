@@ -60,7 +60,7 @@ const Contacts = () => {
                <h3 className="contacts__title">Send me an e-mail</h3>
                <form ref={form} onSubmit={sendEmail} className="contacts__form">
                   <div className="contacts__form-div">
-                     <label for="name" className="contacts__form-tag">
+                     <label htmlFor="name" className="contacts__form-tag">
                         Name
                      </label>
                      <input
@@ -73,7 +73,7 @@ const Contacts = () => {
                      />
                   </div>
                   <div className="contacts__form-div">
-                     <label for="email" className="contacts__form-tag">
+                     <label htmlFor="email" className="contacts__form-tag">
                         Email
                      </label>
                      <input
@@ -86,7 +86,7 @@ const Contacts = () => {
                      />
                   </div>
                   <div className="contacts__form-div contacts__form-area">
-                     <label for="project" className="contacts__form-tag">
+                     <label htmlFor="project" className="contacts__form-tag">
                         Your proposal
                      </label>
                      <textarea
