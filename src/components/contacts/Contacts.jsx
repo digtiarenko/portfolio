@@ -1,6 +1,21 @@
 import './contacts.css';
 import { ReactComponent as SendSVG } from '../../assets/send.svg';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 const Contacts = () => {
+   const form = useRef();
+
+   const sendEmail = e => {
+      e.preventDefault();
+
+      emailjs.sendForm(
+         'service_twx4wxf',
+         'template_jyx7z6w',
+         form.current,
+         '-y3S-kqm45d10b78T',
+      );
+      e.target.reset();
+   };
    return (
       <section className="contacts section" id="contacts">
          <h2 className="section__title">Contacts</h2>
@@ -43,12 +58,13 @@ const Contacts = () => {
             </div>
             <div className="contacts__content">
                <h3 className="contacts__title">Send me an e-mail</h3>
-               <form className="contacts__form">
+               <form ref={form} onSubmit={sendEmail} className="contacts__form">
                   <div className="contacts__form-div">
                      <label for="name" className="contacts__form-tag">
                         Name
                      </label>
                      <input
+                        required
                         id="name"
                         type="text"
                         name="name"
@@ -61,6 +77,7 @@ const Contacts = () => {
                         Email
                      </label>
                      <input
+                        required
                         id="email"
                         type="email"
                         name="email"
@@ -73,6 +90,7 @@ const Contacts = () => {
                         Your proposal
                      </label>
                      <textarea
+                        required
                         id="project"
                         type="text"
                         name="project"
@@ -82,7 +100,10 @@ const Contacts = () => {
                         placeholder="Tell me about your idea"
                      />
                   </div>
-                  <button className="button button--flex contacts__button_xl">
+                  <button
+                     type="submit"
+                     className="button button--flex contacts__button_xl"
+                  >
                      Send Message <SendSVG />
                   </button>
                </form>
