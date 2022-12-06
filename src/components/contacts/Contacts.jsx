@@ -1,5 +1,5 @@
 import './contacts.css';
-
+import { ReactComponent as SendSVG } from '../../assets/send.svg';
 const Contacts = () => {
    return (
       <section className="contacts section" id="contacts">
@@ -7,7 +7,7 @@ const Contacts = () => {
          <span className="section__subtitle">Get in touch</span>
          <div className="contacts__container container grid">
             <div className="contacts__content">
-               <h3 className="contacts__title">Tals to me</h3>
+               <h3 className="contacts__title">Talk to me</h3>
 
                <div className="contacts__info">
                   <div className="contacts__card">
@@ -43,6 +43,47 @@ const Contacts = () => {
             </div>
             <div className="contacts__content">
                <h3 className="contacts__title">Send me an e-mail</h3>
+               <form className="contacts__form">
+                  <label for="name" className="contacts__form-tag">
+                     Name
+                  </label>
+                  <input
+                     id="name"
+                     type="text"
+                     name="name"
+                     className="contacts__form-input"
+                     placeholder="Insert your name"
+                  />
+                  <div className="contacts__form-div">
+                     <label for="email" className="contacts__form-tag">
+                        Email
+                     </label>
+                     <input
+                        id="email"
+                        type="email"
+                        name="email"
+                        className="contacts__form-input"
+                        placeholder="Insert your email"
+                     />
+                  </div>
+                  <div className="contacts__form-div">
+                     <label for="project" className="contacts__form-tag">
+                        Your proposal
+                     </label>
+                     <textarea
+                        id="project"
+                        type="text"
+                        name="project"
+                        cols="30"
+                        rows="10"
+                        className="contacts__form-input"
+                        placeholder="Tell about ypur idea"
+                     />
+                  </div>
+                  <button className="button button--flex">
+                     Sen Message <SendSVG />
+                  </button>
+               </form>
             </div>
          </div>
       </section>
