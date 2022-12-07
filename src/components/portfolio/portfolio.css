@@ -1,0 +1,4 @@
+.work__container {
+   grid-template-columns: repeat(2, max-content);
+   gap: 3rem;
+}
