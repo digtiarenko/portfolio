@@ -6,7 +6,7 @@ const ScrollUp = () => {
 
    useEffect(() => {
       const handleScroll = e => {
-         if (window.scrollY > 794) {
+         if (window.scrollY > 793) {
             scrollRef.current.classList.add('show-scroll');
          } else {
             scrollRef.current.classList.remove('show-scroll');
