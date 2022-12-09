@@ -8,7 +8,7 @@ const Works = () => {
    const [active, setActive] = useState(0);
 
    const handleClick = (e, index) => {
-      setItem(e.target.textContent);
+      setItem(e.target.textContent.toLowerCase());
       setActive(index);
    };
 
@@ -17,7 +17,7 @@ const Works = () => {
          setProjects(projectData);
       } else {
          const newProjects = projectData.filter(
-            project => project.category === item,
+            project => project.category.toLowerCase() === item,
          );
          setProjects(newProjects);
       }

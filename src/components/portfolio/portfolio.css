@@ -90,6 +90,19 @@
    }
 }
 @media screen and (max-width: 576px) {
+   .portfolio__container {
+      grid-template-columns: 1fr;
+   }
+
+   .portfolio__img {
+      width: 100%;
+   }
 }
 @media screen and (max-width: 350px) {
+   .portfolio__item {
+      font-size: var(--small-font-size);
+   }
+   .portfolio__filter {
+      column-gap: 0.25rem;
+   }
 }
