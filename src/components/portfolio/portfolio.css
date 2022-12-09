@@ -74,8 +74,20 @@
    .portfolio__container {
       gap: 1.25rem;
    }
+   .portfolio__card {
+      padding: 1rem;
+   }
+   .portfolio__img {
+      margin-bottom: 0.75rem;
+   }
+   .portfolio__title {
+      margin-bottom: 0.25rem;
+   }
 }
 @media screen and (max-width: 768px) {
+   .portfolio__container {
+      grid-template-columns: max-content;
+   }
 }
 @media screen and (max-width: 576px) {
 }
