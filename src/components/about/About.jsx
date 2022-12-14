@@ -26,7 +26,7 @@ const About = () => {
                   className="button about__button button--flex"
                >
                   Download CV
-                  <i className="uil uil-file-download-alt"></i>
+                  <i className="uil uil-file-download-alt cv-logo"></i>
                </a>
             </div>
          </div>

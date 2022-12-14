@@ -4,6 +4,9 @@
    align-items: center;
    column-gap: 4rem;
 }
+.cv-logo {
+   margin-left: 0.5rem;
+}
 
 .about__img {
    width: 400px;
@@ -45,7 +48,6 @@
 }
 
 .about__description {
-   /* border: 1px black solid; */
    padding: 0 2rem 0;
    margin-bottom: var(--mb-2-5);
 }
@@ -79,8 +81,6 @@
    }
    .about__info {
       justify-content: center;
-      /* gap: 2.5rem; */
-      /* padding: 0 2rem; */
    }
    .about__description {
       padding: 0 5rem;

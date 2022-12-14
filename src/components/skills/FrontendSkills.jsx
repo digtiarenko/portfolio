@@ -55,7 +55,7 @@ const FrontendSkills = () => {
                <div className="skills__data">
                   <i className="bx bx-badge-check"></i>
                   <div>
-                     <h3 className="skills__name">RESP APIs</h3>
+                     <h3 className="skills__name">REST APIs</h3>
                      <span className="skills__level">Intermediate</span>
                   </div>
                </div>

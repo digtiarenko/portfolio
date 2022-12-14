@@ -27,7 +27,7 @@
 }
 
 .portfolio__container {
-   grid-template-columns: repeat(2, max-content);
+   grid-template-columns: repeat(2, 336px);
    gap: 3rem;
    justify-content: center;
 }
@@ -49,6 +49,11 @@
    font-size: var(--normal-font-size);
    font-weight: var(--font-medium);
    margin-bottom: var(--mb-05);
+}
+.portfolio__description {
+   white-space: pre-wrap;
+   width: 100%;
+   font-size: var(--smaller-font-size);
 }
 
 .portfolio__button {
@@ -86,7 +91,10 @@
 }
 @media screen and (max-width: 768px) {
    .portfolio__container {
-      grid-template-columns: max-content;
+      grid-template-columns: 500px;
+   }
+   .portfolio__img {
+      width: 100%;
    }
 }
 @media screen and (max-width: 576px) {

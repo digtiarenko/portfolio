@@ -10,11 +10,10 @@ const Data = () => {
          <h3 className="home__subtitle">Full Stack Developer</h3>
          <p className="home__description">
             Hi! I'm a junior [React, Node.js] developer. I may be newbie in IT,
-            but certainly a seasoned player in bussiness. Throw me to the wolves
-            and I shall return, leading the pack.
+            but certainly a seasoned player in business.
          </p>
 
-         <a href="#contact" className="button button--flex">
+         <a href="#contacts" className="button button--flex">
             Say Hello <SendSVG />
          </a>
       </div>
