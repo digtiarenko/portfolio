@@ -40,7 +40,7 @@ const Header = () => {
                               : 'nav__link'
                         }
                      >
-                        <i className="uil uil-estate nav__icon"></i> Home
+                        <i className="uil uil-home nav__icon"></i> Home
                      </a>
                   </li>
                   <li className="nav__item">

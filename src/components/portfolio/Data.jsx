@@ -35,8 +35,11 @@ export const projectData = [
    {
       id: 4,
       image: Work4,
-      title: 'Application',
-      category: 'web',
+      title: 'Contact book',
+      description:
+         'MPA with basic contact book functionality. \nReact + Material.ui. Redux + Redux Toolkit + RTK Query serves as state manager. WebServer [Node.js + Express] in connection with MongoDB.',
+      category: 'fullstack',
+      link: 'https://marvelous-bunny-daf51a.netlify.app/',
    },
 ];
 

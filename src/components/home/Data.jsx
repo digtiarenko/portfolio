@@ -1,5 +1,5 @@
 import { ReactComponent as HandSVG } from '../../assets/hand.svg';
-import { ReactComponent as SendSVG } from '../../assets/send.svg';
+import CV from '../../assets/digtiarenko_CV_2023.pdf';
 
 const Data = () => {
    return (
@@ -13,8 +13,13 @@ const Data = () => {
             but certainly a seasoned player in business.
          </p>
 
-         <a href="#contacts" className="button button--flex">
-            Say Hello <SendSVG />
+         <a
+            download="digtiarenko_CV"
+            href={CV}
+            className="button about__button button--flex"
+         >
+            Download CV
+            <i className="uil uil-file-download-alt cv-logo"></i>
          </a>
       </div>
    );

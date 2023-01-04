@@ -1,6 +1,6 @@
 import './about.css';
 import AboutImg from '../../assets/profile_2.jpg';
-import CV from '../../assets/digtiarenko_2022.pdf';
+import { ReactComponent as SendSVG } from '../../assets/send.svg';
 import Info from './Info';
 
 const About = () => {
@@ -20,13 +20,8 @@ const About = () => {
                   I know how to be a team player ;)
                </p>
 
-               <a
-                  download="digtiarenko_CV"
-                  href={CV}
-                  className="button about__button button--flex"
-               >
-                  Download CV
-                  <i className="uil uil-file-download-alt cv-logo"></i>
+               <a href="#contacts" className="button button--flex">
+                  Say Hello <SendSVG />
                </a>
             </div>
          </div>
