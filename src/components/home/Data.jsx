@@ -9,8 +9,8 @@ const Data = () => {
          </h1>
          <h3 className="home__subtitle">Full Stack Developer</h3>
          <p className="home__description">
-            Hi! I'm a junior [React, Node.js] developer. I may be newbie in IT,
-            but certainly a seasoned player in business.
+            Hi! I'm a junior [React, Node.js] developer. I may be a newbie in
+            IT, but certainly a seasoned player in the business.
          </p>
 
          <a

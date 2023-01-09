@@ -15,8 +15,8 @@ const About = () => {
                <Info />
                <p className="about__description">
                   Passionate and experienced media guy goes IT. Bringing forth
-                  10+ years experience of communication, planning and
-                  coordination skills gained on editors and directors positions.
+                  10+ years of experience in communication, planning, and
+                  coordination skills gained in editors and directors positions.
                   I know how to be a team player ;)
                </p>
 
