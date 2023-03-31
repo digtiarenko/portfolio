@@ -33,16 +33,23 @@
 }
 
 .portfolio__card {
+   display: flex;
+   flex-direction: column;
    background-color: var(--container-color);
    border: 1px solid rgba(0, 0, 0, 0.1);
    padding: 1.25rem;
    border-radius: 1rem;
 }
+.portfolio__card:hover .portfolio__img {
+   filter: grayscale(0);
+}
 
 .portfolio__img {
+   filter: grayscale(1);
    width: 295px;
    border-radius: 1rem;
    margin-bottom: var(--mb-1);
+   transition: 0.2s;
 }
 
 .portfolio__title {
@@ -54,6 +61,19 @@
    white-space: pre-wrap;
    width: 100%;
    font-size: var(--smaller-font-size);
+}
+
+.portfolio__text-wrappe {
+   flex-grow: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.link__wrapper {
+   margin-top: auto;
+   display: flex;
+   justify-content: space-between;
 }
 
 .portfolio__button {
