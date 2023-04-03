@@ -1,7 +1,7 @@
 import Work1 from '../../assets/work1.jpg';
 import Work2 from '../../assets/work2.jpg';
 import Work3 from '../../assets/work3.jpg';
-// import Work4 from '../../assets/work4.jpg';
+import Work4 from '../../assets/work4.jpg';
 import Work5 from '../../assets/work5.jpg';
 import Work6 from '../../assets/work6.jpg';
 
@@ -37,16 +37,16 @@ export const projectData = [
       link: 'https://gilded-douhua-d195e0.netlify.app/',
       github: 'https://github.com/digtiarenko/star_news',
    },
-   // {
-   //    id: 4,
-   //    image: Work4,
-   //    title: 'Contact book',
-   //    description:
-   //       'MPA with basic contact book functionality. \nReact + Material.ui. Redux + Redux Toolkit + RTK Query serves as state manager. WebServer [Node.js + Express] in connection with MongoDB.',
-   //    category: 'back, fullstack',
-   //    link: 'https://marvelous-bunny-daf51a.netlify.app/',
-   //    github: 'https://github.com/digtiarenko/nodeJS_REST_api',
-   // },
+   {
+      id: 4,
+      image: Work4,
+      title: 'Contact book',
+      description:
+         'SPA with basic contact book functionality. \nReact + Material.ui. Redux + Redux Toolkit + RTK Query serves as state manager. WebServer [Node.js + Express] in connection with MongoDB.',
+      category: 'back, fullstack',
+      link: 'https://digtiarenko.github.io/goit-react-hw-08-phonebook/',
+      github: 'https://github.com/digtiarenko/nodeJS_REST_api',
+   },
    {
       id: 5,
       image: Work3,
