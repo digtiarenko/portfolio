@@ -44,7 +44,7 @@ export const projectData = [
       description:
          'SPA with basic contact book functionality. \nReact + Material.ui. Redux + Redux Toolkit + RTK Query serves as state manager. WebServer [Node.js + Express] in connection with MongoDB.',
       category: 'back, fullstack',
-      link: 'https://digtiarenko.github.io/goit-react-hw-08-phonebook/',
+      link: 'https://github.com/digtiarenko/nodeJS_REST_api/tree/HW6_email',
       github: 'https://github.com/digtiarenko/nodeJS_REST_api',
    },
    {
