@@ -1,5 +1,5 @@
 import { ReactComponent as HandSVG } from '../../assets/hand.svg';
-import CV from '../../assets/digtiarenko_CV_2023.pdf';
+import CV from '../../assets/CV_digtiarenko_2023.pdf';
 
 const Data = () => {
    return (
@@ -9,8 +9,9 @@ const Data = () => {
          </h1>
          <h3 className="home__subtitle">Full Stack Developer</h3>
          <p className="home__description">
-            Hi! I'm a junior [React, Node.js] developer. I may be a newbie in
-            IT, but certainly a seasoned player in the business.
+            Hi! I'm a full stack [React, Next, Express, Node.js, ModgoDB]
+            developer. I may be a newbie in IT, but certainly a seasoned player
+            in the business.
          </p>
 
          <a
