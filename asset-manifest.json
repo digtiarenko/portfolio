@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cba48bdd.css",
-    "main.js": "/portfolio/static/js/main.9ce17eda.js",
+    "main.js": "/portfolio/static/js/main.3f59e8b6.js",
     "static/media/profile.jpg": "/portfolio/static/media/profile.2720d475e439b826627d.jpg",
     "static/media/profile_2.jpg": "/portfolio/static/media/profile_2.c2fdacfa67931df17c96.jpg",
-    "static/media/CV_digtiarenko_2023.pdf": "/portfolio/static/media/CV_digtiarenko_2023.bc63e5e425d0bc298e0f.pdf",
+    "static/media/CV_digtiarenko_2023.pdf": "/portfolio/static/media/CV_digtiarenko_2023.776874525cdb78997f91.pdf",
     "static/media/work1.jpg": "/portfolio/static/media/work1.875d9f50907b87b219b9.jpg",
     "static/media/work6.jpg": "/portfolio/static/media/work6.0e3c1363715ba1d3722c.jpg",
     "static/media/work5.jpg": "/portfolio/static/media/work5.1d68e3ea69c86f491429.jpg",
@@ -15,10 +15,10 @@
     "static/media/send.svg": "/portfolio/static/media/send.a52765e7b8eaf9a7fc9b3e45bb6b85db.svg",
     "index.html": "/portfolio/index.html",
     "main.cba48bdd.css.map": "/portfolio/static/css/main.cba48bdd.css.map",
-    "main.9ce17eda.js.map": "/portfolio/static/js/main.9ce17eda.js.map"
+    "main.3f59e8b6.js.map": "/portfolio/static/js/main.3f59e8b6.js.map"
   },
   "entrypoints": [
     "static/css/main.cba48bdd.css",
-    "static/js/main.9ce17eda.js"
+    "static/js/main.3f59e8b6.js"
   ]
 }
