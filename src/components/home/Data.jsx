@@ -1,5 +1,5 @@
 import { ReactComponent as HandSVG } from '../../assets/hand.svg';
-import CV from '../../assets/CV_digtiarenko_2023.pdf';
+import CV from '../../assets/digtiarenko_JS_dev.pdf';
 
 const Data = () => {
    return (
